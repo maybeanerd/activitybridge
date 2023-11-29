@@ -18,6 +18,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: v18.19.0
+      - name: prepare pnpm
+        run: npm i -g pnpm
       - name: pnpm i
         run: pnpm i
       - name: lint
