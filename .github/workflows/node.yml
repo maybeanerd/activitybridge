@@ -1,0 +1,28 @@
+name: Node
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  lint_and_typecheck:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: v18.19.0
+      - name: pnpm i
+        run: pnpm i
+      - name: lint
+        run: pnpm lint
+      - name: build
+        run: pnpm build
+      - name: test
+        run: pnpm test --if-present

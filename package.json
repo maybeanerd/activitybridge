@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "echo \"TODO: add linting\"",
     "build": "tsc",
     "start": "node dist/index.js"
   },
