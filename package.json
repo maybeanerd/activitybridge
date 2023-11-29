@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "sebastian di luzio",
   "devDependencies": {
-    "@types/node": "^20.10.1",
-    "typescript": "^5.3.2"
+    "@types/node": "20.10.1",
+    "typescript": "5.3.2"
   }
 }
