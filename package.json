@@ -2,19 +2,21 @@
   "name": "activitybridge",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "private": true,
+  "author": "sebastian di luzio",
   "scripts": {
     "lint": "echo \"TODO: add linting\"",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "prepare": "nitropack prepare",
+    "dev": "nitropack dev",
+    "build": "nitropack build",
+    "preview": "node .output/server/index.mjs"
   },
-  "keywords": [],
-  "author": "sebastian di luzio",
+  "dependencies": {
+    "matrix-appservice-bridge": "9.0.1",
+    "nitropack": "2.8.1"
+  },
   "devDependencies": {
     "@types/node": "20.10.2",
     "typescript": "5.3.2"
-  },
-  "dependencies": {
-    "matrix-appservice-bridge": "9.0.1"
   }
 }
