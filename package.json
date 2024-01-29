@@ -12,7 +12,7 @@
     "preview": "node .output/server/index.mjs"
   },
   "dependencies": {
-    "matrix-appservice-bridge": "9.0.1",
+    "matrix-appservice-bridge": "10.1.0",
     "nitropack": "2.8.1"
   },
   "devDependencies": {
