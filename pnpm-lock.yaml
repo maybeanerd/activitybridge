@@ -9,8 +9,8 @@ dependencies:
     specifier: 10.1.0
     version: 10.1.0(nedb@1.8.0)
   nitropack:
-    specifier: 2.9.2
-    version: 2.9.2
+    specifier: 2.9.3
+    version: 2.9.3
 
 devDependencies:
   '@types/node':
@@ -2904,8 +2904,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /nitropack@2.9.2:
-    resolution: {integrity: sha512-0anZb+7xChw3sErT05Hc/usroBxDHD/6TwKgHIXjZioYZ7c3wKtCl1xwb/59RugyW5AdqF34u7GdmRzqPUIa5Q==}
+  /nitropack@2.9.3:
+    resolution: {integrity: sha512-k3wXlhxmTNkkFXnVyRYJ6CCdZmvlqjYJ4oaL8o9uTKIjg7A1udAle+3cVDxUWi2r9owwEysAP2+quNsAujZyTg==}
     engines: {node: ^16.11.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
