@@ -1,6 +1,6 @@
 {
   "name": "activitybridge",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "",
   "private": true,
   "author": "sebastian di luzio",
@@ -16,7 +16,7 @@
     "nitropack": "2.9.3"
   },
   "devDependencies": {
-    "@types/node": "20.11.26",
+    "@types/node": "20.11.27",
     "typescript": "5.4.2"
   }
 }
