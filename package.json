@@ -1,6 +1,6 @@
 {
   "name": "activitybridge",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "",
   "private": true,
   "author": "sebastian di luzio",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "matrix-appservice-bridge": "10.1.0",
-    "nitropack": "2.9.3"
+    "nitropack": "2.9.4"
   },
   "devDependencies": {
     "@types/node": "20.11.28",
