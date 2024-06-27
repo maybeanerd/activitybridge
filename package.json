@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "matrix-appservice-bridge": "10.1.0",
-    "nitropack": "2.9.6"
+    "nitropack": "2.9.7"
   },
   "devDependencies": {
     "@types/node": "20.14.9",
