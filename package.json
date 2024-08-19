@@ -16,7 +16,7 @@
     "nitropack": "2.9.7"
   },
   "devDependencies": {
-    "@types/node": "20.16.0",
+    "@types/node": "20.16.1",
     "typescript": "5.5.4"
   }
 }
