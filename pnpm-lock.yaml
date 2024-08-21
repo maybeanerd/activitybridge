@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   matrix-appservice-bridge:
-    specifier: 10.1.0
-    version: 10.1.0(nedb@1.8.0)
+    specifier: 10.2.0
+    version: 10.2.0(nedb@1.8.0)
   nitropack:
     specifier: 2.9.7
     version: 2.9.7(@opentelemetry/api@1.7.0)
@@ -1245,7 +1245,7 @@ packages:
       html-to-text: 9.0.5
       htmlencode: 0.0.4
       lowdb: 1.0.0
-      lru-cache: 10.1.0
+      lru-cache: 10.2.0
       mkdirp: 3.0.1
       morgan: 1.10.0
       postgres: 3.4.3
@@ -3031,11 +3031,6 @@ packages:
       steno: 0.4.4
     dev: false
 
-  /lru-cache@10.1.0:
-    resolution: {integrity: sha512-/1clY/ui8CzjKFyjdvwPWJUYKiFVXG2I2cY0ssG7h4+hwk+XOIX7ZSG9Q7TW8TW3Kp3BUSqgFWBLgL4PJ+Blag==}
-    engines: {node: 14 || >=16.14}
-    dev: false
-
   /lru-cache@10.2.0:
     resolution: {integrity: sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==}
     engines: {node: 14 || >=16.14}
@@ -3054,8 +3049,8 @@ packages:
       semver: 6.3.1
     dev: false
 
-  /matrix-appservice-bridge@10.1.0(nedb@1.8.0):
-    resolution: {integrity: sha512-WiyovdQv3WfguffCTTycZ+tM+gwc4DvxSS6em0q5kjdCYiw+ogXezTTkUZZ2QBsIqmgVzF96UQC8PuFS7iWoBA==}
+  /matrix-appservice-bridge@10.2.0(nedb@1.8.0):
+    resolution: {integrity: sha512-GYpIBPgQnc0/p93KoqzrOYwh6JJEWZc+t9N0GxMO7EXb0IEkfKMji6lOOEqk9QdNs2+fpMBKIS2mjT3X5iuTUg==}
     engines: {node: '>=20'}
     peerDependencies:
       nedb: ^1.8.0
