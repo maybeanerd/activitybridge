@@ -1,3 +1,7 @@
+# this project is eepy
+
+due to losing interest on selfhosting matrix and seeing so many security reseachers being unhappy about the state of it, I lost motivation for this project
+
 # activitybridge
 The bridge from other systems to activitypub.
 
